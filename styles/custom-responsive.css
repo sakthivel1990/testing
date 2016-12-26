@@ -1,0 +1,268 @@
+/* Small Mobile Devices ( < 768px ) Style Begin */
+@media (min-width: 0px) and (max-width: 767px) {	
+	#LeftMenu{
+		padding: 0 15px;
+		width: 100%;
+		float: none;
+	}
+	#LeftMenu .main-menu {
+		border: none;
+		padding: 24px 10px 0 40px;
+	}
+	#LeftMenu .main-menu .logo {
+		margin: 0;
+		text-align: center;
+	}
+ 	#LeftMenu .mobile-menu {
+    border: medium none;
+    box-shadow: none;
+    left: 20px;
+    padding: 0;
+    position: absolute;
+    top: 24px;
+    z-index: 999;
+    width: 100%;
+    max-width: 288px;
+  }
+  #LeftMenu .dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active, .dl-menuwrapper ul{
+    background: rgba(74,66,61,0.9);
+  }
+   #LeftMenu .dl-menuwrapper li {
+    border-bottom: 1px #333 solid;
+    position: relative;
+  }
+  #LeftMenu .dl-menuwrapper li a{
+    text-decoration: none;
+    font:400 14px/130% 'Open Sans', sans-serif;
+    text-transform: uppercase;
+  }
+  #LeftMenu .dl-menuwrapper li a img{
+		display: inline-block;
+		margin: 0 16px 0 0;
+  }
+  #LeftMenu .dl-menuwrapper li.dl-back::after, .dl-menuwrapper li > a:not(:only-child)::after {
+		position: absolute;
+		top: 0;
+		line-height: 50px;
+		font-family: 'icomoon';
+		speak: none;
+		-webkit-font-smoothing: antialiased;
+		content: ">";
+  }
+  #LeftMenu .dl-menuwrapper li > a::after {
+    right: 10px;
+    color: rgb(255, 255, 255);
+  }
+  #LeftMenu .dl-menuwrapper li.dl-back::after {
+  	color: rgb(255, 255, 255);
+  } 
+	.no-touch .dl-menuwrapper li a:hover {
+    background: #0a0808;
+	}
+	#RightSection {
+		padding: 0 15px;
+		width: 100%;
+	}
+	#RightSection #Header{
+		height: auto;
+		margin: 20px 0 0;
+	}
+	#RightSection #Header .search-box {
+    width: 60%;
+  }
+  #RightSection #Header #custom-search-input {
+  	width: 100%;
+  	margin: 0;
+  }
+  #RightSection #Header .notification {
+  	width: 38%;
+  }
+  #Body {
+  	width: 100%;
+  }
+  #Body .body-content .write-something h2 {
+  	font: 600 14px/130% 'Open Sans', sans-serif;
+  }
+  #Body .body-content .video-icon ul li {
+  	top: -24px;
+  }
+  #Body .body-content .video-icon ul li a img {
+    width: 40px;
+    position: relative;
+	}
+	#Body .body-content .shared-stroy {
+    color: #000;
+    font: 600 11px/130% 'Open Sans', sans-serif;
+	}
+  #Body .body-content .shared-stroy .damjan {
+    width: 81%;
+  }
+  #Body .body-content .shared-stroy .one-hr {
+    width: 18%;
+  }
+	#Body .body-content .shared-stroy .damjan img, #Body .body-content .shared-stroy .damjan p {
+    display: inline-block;
+    margin: 0;
+	}
+	#Body .body-content .tokyo {
+    margin: 30px 0;
+  }
+  #Body .body-content .tokyo .tokyo-forever h3 {
+    font: 700 16px/150% 'Open Sans', sans-serif;    
+    margin: 0 0 16px;
+	}
+	#Body .body-content .tokyo .tokyo-forever p {
+    font: 600 12px/160% 'Open Sans', sans-serif;
+    margin: 0 0 16px;
+  }
+  #Body .body-content .tokyo .tokyo-forever .likes-commands .like, #Body .body-content .tokyo .tokyo-forever .likes-commands .commands {
+    display: inline-block;
+    width: 100%;
+	}
+	#Body .body-content .tokyo .tokyo-forever .likes-commands {   
+    padding: 16px 0;
+  }
+  #Body .body-content .tokyo .tokyo-forever .write-command {
+    padding: 30px 0 0;
+	}
+	#Body .body-content .tokyo .tokyo-forever .write-command .write-search {
+    display: inline-block;
+    width: 80%;
+	}
+	#Body .body-content .muzli-shared-stroy {
+    color: #000;
+    font: 600 11px/130% 'Open Sans', sans-serif;
+	}
+  #Body .body-content .muzli-shared-stroy .damjan {
+    width: 81%;
+  }
+  #Body .body-content .muzli-shared-stroy .one-hr {
+    width: 18%;
+  }
+	#Body .body-content .muzli-shared-stroy .damjan img, #Body .body-content .muzli-shared-stroy .damjan p {
+    display: inline-block;
+    margin: 0;
+	}	
+	#Body .body-content .screenshort {
+    margin: 16px 0;
+	}
+}
+/* Small devices (tablets, 768px and up)  Style Begin */ 
+
+@media (min-width: 768px) and (max-width: 991px) { 
+	#LeftMenu {
+    width: 25%;
+  }
+	#LeftMenu .main-menu {
+    height: auto;
+    padding: 23px 10px 23px;
+	}	
+	#LeftMenu .main-menu .logo {
+    margin: 0 0 20px;
+	}
+	#LeftMenu .main-menu .logo i {    
+    font-size: 24px;
+    margin: 6px 0 0;
+	}
+	#LeftMenu .main-menu .logo a img{
+		width: 110px;
+	}
+	#LeftMenu .main-menu .leftslide-menu h3 {
+    margin: 0 0 10px;
+    font: 700 18px/130% 'Open Sans', sans-serif;
+	}
+	#LeftMenu .main-menu .leftslide-menu ul {
+		margin: 0 0 20px;
+	}
+	#RightSection {
+    float: left;
+    width: 75%;
+    padding: 0 20px;
+	}
+	#Header .search-box {
+    width: 60% !important;
+    display: inline-block;
+	}
+	#Header #custom-search-input {
+		width: 100%;
+		margin: 20px 0 !important;
+	}
+	#Header .notification {
+    width: 39% !important;
+    display: inline-block;
+    position: relative;
+		top: -20px;
+	}
+	#Body {
+    width: 100%;
+  }
+  #Body .body-content .write-something h2 {
+  	font: 600 16px/130% 'Open Sans', sans-serif;
+  }
+  #Body .body-content .tokyo {
+    margin: 20px 0;
+  }
+  #Body .body-content .tokyo .tokyo-forever {
+    padding: 20px;
+  }
+  #Body .body-content .tokyo .tokyo-forever h3 {
+    font: 700 22px/150% 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0 0 14px;
+	}
+	#Body .body-content .tokyo .tokyo-forever p {
+    font: 600 14px/160% 'Open Sans', sans-serif;
+    margin: 0 0 14px;
+    color: #c7c8cb;
+	}	
+	#Body .body-content .tokyo .tokyo-forever .likes-commands .like,
+	#Body .body-content .tokyo .tokyo-forever .likes-commands .commands {
+	display: inline-block;
+	width: 79%;
+	}
+	#Body .body-content .tokyo .tokyo-forever .likes-commands .commands {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	}
+	#Body .body-content .tokyo .tokyo-forever .write-command {
+    padding: 20px 0 0;
+	}
+	#Body .body-content .tokyo .tokyo-forever .write-command .write-search {
+    display: inline-block;
+    width: 76%;
+	}
+}
+/* Small devices (tablets, 768px and up)  Style End */
+
+/* Medium devices (desktops, 992px and up) Styles Begin */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#LeftMenu {
+    width: 23%;
+  }
+  #LeftMenu .main-menu {
+  	padding: 20px 10px;
+  }
+  #LeftMenu .main-menu .logo {
+    margin: 0 0 20px;
+	}
+  #RightSection {   
+    width: 77%;
+	}	
+	#Header .search-box {
+    width: 50% !important;
+		display: inline-block;
+		margin: 0 0 0 62px;
+	}
+	#Header #custom-search-input {
+		width: 100%;
+		margin: 20px 0 !important;
+	}
+	#Header .notification {
+    width: 39% !important;
+    display: inline-block;
+    position: relative;
+		top: -20px;
+	}	
+}
+
